@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="element-details">
+    <h2>{{ element.name }} ({{ element.symbol }})</h2>
+    <p><strong>Atomic Number:</strong> {{ element.atomic_number }}</p>
+    <p><strong>Atomic Mass:</strong> {{ element.atomic_mass }}</p>
+    <p><strong>Category:</strong> {{ element.category }}</p>
+    <p><strong>Group:</strong> {{ element.group }}</p>
+    <p><strong>Period:</strong> {{ element.period }}</p>
+</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Periodic Table Elements</h2>
+<div class="element-card-container">
+    {% for element in elements %}
+    <div class="element-card">
+        <a href="{{ url_for('element_details', atomic_number=element.atomic_number) }}">
+            <h3>{{ element.symbol }}</h3>
+            <p>{{ element.name }}</p>
+            <p>Atomic #: {{ element.atomic_number }}</p>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
