@@ -14,12 +14,12 @@ Ini adalah aplikasi web edukatif sederhana yang dibuat dengan **Flask** untuk me
 
 ---
 
-## Seed_db.py
+## 🌱 Seed_db.py
  - Script untuk membaca file element.json dan mengisi (seed) data ke dalam database elements.db menggunakan SQLAlchemy.
 
-## Yang perlu diinstal
+## 💻 Yang perlu diinstal
  - pip install flask flask_sqlalchemy
 
-## Pengisian database
+## 💻 Pengisian database
  - python seed_db.py
 
