@@ -24,3 +24,5 @@ Ini adalah aplikasi web edukatif sederhana yang dibuat dengan **Flask** untuk me
  - python seed_db.py
 
 ![Screenshot 2025-05-30 232446](https://github.com/user-attachments/assets/9051904e-5ba8-49c4-aef8-3150a16f4a70)
+![image](https://github.com/user-attachments/assets/875444af-5068-4ce7-b990-2a5a433bc700)
+
